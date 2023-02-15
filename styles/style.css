@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
-  /* border: 2px solid saddlebrown; */
+  border: 2px solid saddlebrown;
 }
 :root {
   --black: #131313;
@@ -120,13 +120,22 @@ nav {
     margin: 0;
   }
   .banner-disc {
-    width: 80%;
+    width: 90%;
   }
   .banner-disc h3 {
     font-size: 50px;
   }
   /* quick list  */
+  .quick-list-container{
+    flex-direction: column;
+    width: 100vw;
+    margin: 60px 0;
+  }
   .quick-imgs{
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .quick-desc{
+    width: 90%;
   }
 }
