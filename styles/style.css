@@ -53,7 +53,7 @@ nav {
 .section-info {
   color: #727272;
   line-height: 26px;
-  padding-bottom: 32px;
+  padding-top: 20px;
   font-weight: 400;
 }
 .banner-img {
@@ -114,10 +114,12 @@ features section styles
 .feature-desc{
   width: 50%;
 }
-.feature-title{
-  font-size: 35px;
-  border-left: 4px solid #ff900e;
+.section-heading{
+   border-left: 4px solid #ff900e;
   padding-left: 15px;
+}
+.heading{
+  font-size: 35px;
 }
 .feature-detail{
   padding-top: 20px;
@@ -150,6 +152,29 @@ features section styles
   font-size: 16px;
   padding-top: 10px;
 }
+
+/* ----------------
+   activity styles
+   ---------------  */
+.activity-desc{
+  margin-left: 130px;
+  width: 542px;
+}
+.activities{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 55px;
+}
+.activity{
+  border: 2px solid #FF900E;
+  padding: 20px 30px 5px 30px;
+  text-align: center;
+}
+.activity h2{
+  color: #424242;
+}
+
 
 /* media query  */
 @media screen and (max-width: 576px) {
@@ -185,5 +210,4 @@ features section styles
     width: 90%;
   }
   /* feature styles  */
-  
 }
