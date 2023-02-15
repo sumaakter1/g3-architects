@@ -50,7 +50,7 @@ nav {
   font-size: 64px;
   padding-bottom: 25px;
 }
-.banner-disc p {
+.banner-disc p, .quick-desc p {
   color: #727272;
   line-height: 26px;
   padding-bottom: 32px;
@@ -68,6 +68,44 @@ nav {
   border-radius: 10px;
 }
 
+/*-------------------------
+ quick list section styles
+ -------------------------  */
+ .quick-list-container{
+  display: flex;
+  gap: 60px;
+  margin: 140px;
+  align-items: center;
+ }
+ .quick-desc h2{
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 15px;
+ }
+ .quick-list{
+  color: #727272;
+}
+.feature{
+  color: #ff900e;
+}
+ .quick-imgs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 50%;
+
+ }
+ .quick-imgs img{
+  width: 100%;
+ }
+.quick-desc{
+  width: 50%;
+}
+
+
+
+
+/* media query  */
 @media screen and (max-width: 576px) {
   nav {
     align-items: flex-start;
