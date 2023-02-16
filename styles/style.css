@@ -53,7 +53,7 @@ nav {
 .section-info {
   color: #727272;
   line-height: 26px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   font-weight: 400;
 }
 .banner-img {
@@ -168,15 +168,36 @@ features section styles
 }
 .activity{
   border: 2px solid #FF900E;
-  padding: 20px 30px 5px 30px;
+  padding: 25px 20px;
+  width: 180px;
+  height: 180px;
   text-align: center;
 }
 .activity h2{
   color: #424242;
 }
 
-
-/* media query  */
+/*----------------
+ Sponspors styles 
+ ------------------- */
+ .spprs-desc{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 70px;
+ }
+.Sponspors{
+  display: flex;
+  justify-content: space-evenly;
+  margin:0 100px;
+}
+.Sponspor-img{
+  width: 120px;
+}
+/*============
+   media query
+ =============  */
 @media screen and (max-width: 576px) {
   nav {
     align-items: flex-start;
