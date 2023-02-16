@@ -53,7 +53,7 @@ nav {
 .section-info {
   color: #727272;
   line-height: 26px;
-  /* padding-top: 20px; */
+  padding-bottom: 20px;
   font-weight: 400;
 }
 .banner-img {
@@ -94,8 +94,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   width: 50%;
-
- }
+}
  .quick-imgs img{
   width: 100%;
  }
@@ -128,9 +127,7 @@ features section styles
   padding-bottom: 20px;
   padding-top: 10px ;
   width: 514px;
-  
-
-}
+ }
 .title{
   padding: 20px;
   margin-bottom: 10px;
@@ -172,9 +169,31 @@ features section styles
   width: 180px;
   height: 180px;
   text-align: center;
+  
+}
+.activity:hover{
+  background-color: rgba(255, 144, 14, 0.1); 
+  border-radius: 10px;
 }
 .activity h2{
   color: #424242;
+}
+
+/* another section styles  */
+.another-section{
+  display: flex;
+  align-items: center;
+  margin:100px;
+}
+.another-img{
+  width: 50%;
+}
+.another-img img{
+  width: 500px;
+  border-radius: 10px;
+}
+.another-desc{
+  width: 50%;
 }
 
 /*----------------
@@ -197,7 +216,6 @@ features section styles
 }
 
 /* footer styles  */
-
 footer{
   color: #424242;
   background-color: rgba(255, 144, 14, 0.1);
@@ -241,6 +259,5 @@ footer{
   }
   .quick-desc{
     width: 90%;
-  }
-  /* feature styles  */
+  } 
 }
