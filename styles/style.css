@@ -195,6 +195,18 @@ features section styles
 .Sponspor-img{
   width: 120px;
 }
+
+/* footer styles  */
+
+footer{
+  color: #424242;
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 30px 0;
+  text-align: center;
+  width: 1000px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
 /*============
    media query
  =============  */
